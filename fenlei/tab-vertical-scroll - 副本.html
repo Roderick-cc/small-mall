@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Hello MUI</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link rel="stylesheet" type="text/css" href="./css/aftercss.css" />
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="./css/mui.min.css">
+		<!--App自定义的css-->
+		<link rel="stylesheet" type="text/css" href="./css/app.css" />
+		<style>
+			.mui-row.mui-fullscreen>[class*="mui-col-"] {
+				height: 100%;
+			}
+
+			
+			.mui-col-xs-3,
+			.mui-col-xs-9 {
+				overflow-y: auto;
+				height: 100%;
+			}
+			
+			.mui-segmented-control .mui-control-item {
+				line-height: 50px;
+				width: 100%;
+			}
+			
+			.mui-control-content {
+				display: block;
+			}
+			
+			.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active {
+				background-color: #fff;
+			}
+		</style>
+	</head>
+
+	<body>
+		 
+		<div class="mui-content mui-row mui-fullscreen">
+			<div class="mui-col-xs-3">
+				<div id="segmentedControls" class="mui-segmented-control mui-segmented-control-inverted mui-segmented-control-vertical">
+					<a class="mui-control-item" data-index="0" href="#content1">新品</a>
+					<a class="mui-control-item" data-index="1" href="#content2">手机</a>
+					<a class="mui-control-item" data-index="2" href="#content3">电视</a>
+					<a class="mui-control-item" data-index="3" href="#content4">电脑</a>
+					<a class="mui-control-item" data-index="4" href="#content5">家电</a>
+					<a class="mui-control-item" data-index="5" href="#content6">路由</a>
+					<a class="mui-control-item" data-index="6" href="#content7">出行</a>
+					<a class="mui-control-item" data-index="7" href="#content8">穿戴</a>
+					<a class="mui-control-item" data-index="8" href="#content9">智能</a>
+					<a class="mui-control-item" data-index="9" href="#content10">电源</a>
+					<a class="mui-control-item" data-index="10" href="#content11">健康</a>
+					<a class="mui-control-item" data-index="11" href="#content12">儿童</a>
+					<a class="mui-control-item" data-index="12" href="#content13">插线板</a>
+					<a class="mui-control-item" data-index="13" href="#content14">音频</a>
+					<a class="mui-control-item" data-index="14" href="#content15">箱包</a>
+					<a class="mui-control-item" data-index="15" href="#content16">生活</a>
+					
+				</div>
+			</div>
+
+			<div id="segmentedControlContents" class="mui-col-xs-9"">
+				<div id="content1" class="mui-control-content">
+					<!-- <ul class="mui-table-view"> -->
+						<div class="cc" ><img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/711275806886438be20e33ec943a904a.jpg?thumb=1&w=500&h=200" alt=""></div>
+						<div class="classify">
+							<div class="classify-title">
+								<span>手机</span>
+							</div>
+							<div class="classify-list">
+								<div class="classify-list-contain">
+									<a href="">
+										<div class="contain-img"><img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/da5c3220c48113950990a432a73eac07.png?thumb=1&w=120&h=120" alt=""></div>
+										<div class="contain-text">小米8 青春版</div>
+									</a>
+								</div>
+								<div class="classify-list-contain">
+									<a href="">
+										<div class="contain-img"><img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/da5c3220c48113950990a432a73eac07.png?thumb=1&w=120&h=120" alt=""></div>
+										<div class="contain-text">小米8 青春版</div>
+									</a>
+								</div>
+								<div class="classify-list-contain">
+									<a href="">
+										<div class="contain-img"><img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/da5c3220c48113950990a432a73eac07.png?thumb=1&w=120&h=120" alt=""></div>
+										<div class="contain-text">小米8 青春版</div>
+									</a>
+								</div>
+								<div class="classify-list-contain">
+									<a href="">
+										<div class="contain-img"><img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/da5c3220c48113950990a432a73eac07.png?thumb=1&w=120&h=120" alt=""></div>
+										<div class="contain-text">小米8 青春版</div>
+									</a>
+								</div>
+								<div class="classify-list-contain">
+									<a href="">
+										<div class="contain-img"><img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/da5c3220c48113950990a432a73eac07.png?thumb=1&w=120&h=120" alt=""></div>
+										<div class="contain-text">小米8 青春版</div>
+									</a>
+								</div>
+								<div class="classify-list-contain">
+									<a href="">
+										<div class="contain-img"><img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/da5c3220c48113950990a432a73eac07.png?thumb=1&w=120&h=120" alt=""></div>
+										<div class="contain-text">小米8 青春版</div>
+									</a>
+								</div>
+								<div class="classify-list-contain">
+									<a href="">
+										<div class="contain-img"><img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/da5c3220c48113950990a432a73eac07.png?thumb=1&w=120&h=120" alt=""></div>
+										<div class="contain-text">小米8 青春版</div>
+									</a>
+								</div>
+								<div class="classify-list-contain">
+									<a href="">
+										<div class="contain-img"><img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/da5c3220c48113950990a432a73eac07.png?thumb=1&w=120&h=120" alt=""></div>
+										<div class="contain-text">小米8 青春版</div>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="classify">
+							<div class="classify-title">
+								<span>电视</span>
+							</div>
+							<div class="classify-list">
+								<div class="classify-list-contain">
+									<a href="">
+										<div class="contain-img"><img src="https://i8.mifile.cn/b2c-mimall-media/bf2dc71cbf6fa8413b7ade09719155a0!120x120.jpg" alt=""></div>
+										<div class="contain-text">75英寸 电视4</div>
+									</a>
+								</div>
+								<div class="classify-list-contain">
+									<a href="">
+										<div class="contain-img"><img src="https://i8.mifile.cn/b2c-mimall-media/bf2dc71cbf6fa8413b7ade09719155a0!120x120.jpg" alt=""></div>
+										<div class="contain-text">75英寸 电视4</div>
+									</a>
+								</div>
+								<div class="classify-list-contain">
+									<a href="">
+										<div class="contain-img"><img src="https://i8.mifile.cn/b2c-mimall-media/bf2dc71cbf6fa8413b7ade09719155a0!120x120.jpg" alt=""></div>
+										<div class="contain-text">75英寸 电视4</div>
+									</a>
+								</div>
+								<div class="classify-list-contain">
+									<a href="">
+										<div class="contain-img"><img src="https://i8.mifile.cn/b2c-mimall-media/bf2dc71cbf6fa8413b7ade09719155a0!120x120.jpg" alt=""></div>
+										<div class="contain-text">75英寸 电视4</div>
+									</a>
+								</div>
+								
+								
+							</div>
+						</div>
+						<div class="classify">
+							<div class="classify-title">
+								<span>电脑</span>
+							</div>
+							<div class="classify-list">
+								<div class="classify-list-contain">
+									<a href="">
+										<div class="contain-img"><img src="https://i8.mifile.cn/b2c-mimall-media/ccad3ac9a43a21a606a392cf6a14b091!120x120.jpg" alt=""></div>
+										<div class="contain-text">15.6"游戏本</div>
+									</a>
+								</div>
+								<div class="classify-list-contain">
+									<a href="">
+										<div class="contain-img"><img src="https://i8.mifile.cn/b2c-mimall-media/ccad3ac9a43a21a606a392cf6a14b091!120x120.jpg" alt=""></div>
+										<div class="contain-text">15.6"游戏本</div>
+									</a>
+								</div>
+								<div class="classify-list-contain">
+									<a href="">
+										<div class="contain-img"><img src="https://i8.mifile.cn/b2c-mimall-media/ccad3ac9a43a21a606a392cf6a14b091!120x120.jpg" alt=""></div>
+										<div class="contain-text">15.6"游戏本</div>
+									</a>
+								</div>
+								
+								
+								
+							</div>
+						</div>
+				</div>
+				<div id="content2" class="mui-control-content">
+					<div class="cc" >
+						<img src="https://i8.mifile.cn/v1/a1/99cf44ff-029b-c59b-a791-b8cec508492b!500x200.webp" alt="">
+					</div>
+					<div class="classify">
+							<div class="classify-title">
+								<span>小米手机</span>
+							</div>
+							<div class="classify-list">
+								<div class="classify-list-contain">
+									<a href="">
+										<div class="contain-img"><img src="https://i8.mifile.cn/b2c-mimall-media/9e83a65a8bd46880870173c43f514b7c!120x120.png" alt=""></div>
+										<div class="contain-text">小米8 SE</div>
+									</a>
+								</div>
+								<div class="classify-list-contain">
+									<a href="">
+										<div class="contain-img"><img src="https://i8.mifile.cn/b2c-mimall-media/9e83a65a8bd46880870173c43f514b7c!120x120.png" alt=""></div>
+										<div class="contain-text">小米8 SE</div>
+									</a>
+								</div>
+								<div class="classify-list-contain">
+									<a href="">
+										<div class="contain-img"><img src="https://i8.mifile.cn/b2c-mimall-media/9e83a65a8bd46880870173c43f514b7c!120x120.png" alt=""></div>
+										<div class="contain-text">小米8 SE</div>
+									</a>
+								</div>
+								<div class="classify-list-contain">
+									<a href="">
+										<div class="contain-img"><img src="https://i8.mifile.cn/b2c-mimall-media/9e83a65a8bd46880870173c43f514b7c!120x120.png" alt=""></div>
+										<div class="contain-text">小米8 SE</div>
+									</a>
+								</div>
+							</div>
+					</div>
+					<div class="classify">
+							<div class="classify-title">
+								<span>红米手机</span>
+							</div>
+							<div class="classify-list">
+								<div class="classify-list-contain">
+									<a href="">
+										<div class="contain-img"><img src="https://i8.mifile.cn/b2c-mimall-media/b5f94d8953aa1400b97e15849863f00e!120x120.png" alt=""></div>
+										<div class="contain-text">红米6 Pro</div>
+									</a>
+								</div>
+								<div class="classify-list-contain">
+									<a href="">
+										<div class="contain-img"><img src="https://i8.mifile.cn/b2c-mimall-media/b5f94d8953aa1400b97e15849863f00e!120x120.png" alt=""></div>
+										<div class="contain-text">红米6 Pro</div>
+									</a>
+								</div>
+								<div class="classify-list-contain">
+									<a href="">
+										<div class="contain-img"><img src="https://i8.mifile.cn/b2c-mimall-media/b5f94d8953aa1400b97e15849863f00e!120x120.png" alt=""></div>
+										<div class="contain-text">红米6 Pro</div>
+									</a>
+								</div>
+								<div class="classify-list-contain">
+									<a href="">
+										<div class="contain-img"><img src="https://i8.mifile.cn/b2c-mimall-media/b5f94d8953aa1400b97e15849863f00e!120x120.png" alt=""></div>
+										<div class="contain-text">红米6 Pro</div>
+									</a>
+								</div>
+								
+							</div>
+					</div>
+					<div class="classify">
+							<div class="classify-title">
+								<span>移动4G + 专区</span>
+							</div>
+							<div class="classify-list">
+								<div class="classify-list-contain">
+									<a href="">
+										<div class="contain-img"><img src="https://i8.mifile.cn/b2c-mimall-media/448a0fcd77e25873cd730a1423d2f6df!120x120.png" alt=""></div>
+										<div class="contain-text">红米6</div>
+									</a>
+								</div>
+								
+								
+							</div>
+					</div>
+
+
+
+
+
+
+
+				</div>
+				<div id="content3" class="mui-control-content">
+					
+				</div>
+				<div id="content4" class="mui-control-content">
+					<ul class="mui-table-view">
+						<li class="mui-table-view-cell">第2个选项卡子项-1</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-2</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-3</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-4</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-5</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-6</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-7</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-8</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-9</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-10</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-11</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-12</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-13</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-14</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-15</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-16</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-17</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-18</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-19</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-20</li>
+					</ul>
+				</div>
+				<div id="content5" class="mui-control-content">
+					<ul class="mui-table-view">
+						<li class="mui-table-view-cell">第2个选项卡子项-1</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-2</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-3</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-4</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-5</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-6</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-7</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-8</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-9</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-10</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-11</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-12</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-13</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-14</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-15</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-16</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-17</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-18</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-19</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-20</li>
+					</ul>
+				</div>
+				<div id="content6" class="mui-control-content">
+					<ul class="mui-table-view">
+						<li class="mui-table-view-cell">第2个选项卡子项-1</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-2</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-3</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-4</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-5</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-6</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-7</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-8</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-9</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-10</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-11</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-12</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-13</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-14</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-15</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-16</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-17</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-18</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-19</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-20</li>
+					</ul>
+				</div>
+				<div id="content7" class="mui-control-content">
+					<ul class="mui-table-view">
+						<li class="mui-table-view-cell">第2个选项卡子项-1</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-2</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-3</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-4</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-5</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-6</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-7</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-8</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-9</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-10</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-11</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-12</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-13</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-14</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-15</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-16</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-17</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-18</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-19</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-20</li>
+					</ul>
+				</div>
+				<div id="content8" class="mui-control-content">
+					<ul class="mui-table-view">
+						<li class="mui-table-view-cell">第2个选项卡子项-1</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-2</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-3</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-4</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-5</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-6</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-7</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-8</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-9</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-10</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-11</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-12</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-13</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-14</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-15</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-16</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-17</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-18</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-19</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-20</li>
+					</ul>
+				</div>
+				<div id="content9" class="mui-control-content">
+					<ul class="mui-table-view">
+						<li class="mui-table-view-cell">第2个选项卡子项-1</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-2</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-3</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-4</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-5</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-6</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-7</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-8</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-9</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-10</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-11</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-12</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-13</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-14</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-15</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-16</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-17</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-18</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-19</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-20</li>
+					</ul>
+				</div>
+				<div id="content10" class="mui-control-content">
+					<ul class="mui-table-view">
+						<li class="mui-table-view-cell">第2个选项卡子项-1</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-2</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-3</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-4</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-5</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-6</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-7</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-8</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-9</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-10</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-11</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-12</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-13</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-14</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-15</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-16</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-17</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-18</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-19</li>
+						<li class="mui-table-view-cell">第2个选项卡子项-20</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<script src="./js/mui.min.js"></script>
+		<script>
+			mui.init({
+				swipeBack: true, //启用右滑关闭功能
+				
+			});
+
+
+			var controls = document.getElementById("segmentedControls");
+			var contents = document.getElementById("segmentedControlContents");
+			
+			
+			controls.querySelector('.mui-control-item').classList.add('mui-active');
+//			
+			(function() {
+				var controlsElem = document.getElementById("segmentedControls");
+				var contentsElem = document.getElementById("segmentedControlContents");
+				var controlListElem = controlsElem.querySelectorAll('.mui-control-item');
+				var contentListElem = contentsElem.querySelectorAll('.mui-control-content');
+				var controlWrapperElem = controlsElem.parentNode;
+				var controlWrapperHeight = controlWrapperElem.offsetHeight;
+				var controlMaxScroll = controlWrapperElem.scrollHeight - controlWrapperHeight;//左侧类别最大可滚动高度
+				var maxScroll = contentsElem.scrollHeight - contentsElem.offsetHeight;//右侧内容最大可滚动高度
+				var controlHeight = controlListElem[0].offsetHeight;//左侧类别每一项的高度
+				var controlTops = []; //存储control的scrollTop值
+				var contentTops = [0]; //存储content的scrollTop值
+				var length = contentListElem.length;
+				for (var i = 0; i < length; i++) {
+					controlTops.push(controlListElem[i].offsetTop + controlHeight);
+				}
+				for (var i = 1; i < length; i++) {
+					var offsetTop = contentListElem[i].offsetTop;
+					if (offsetTop + 100 >= maxScroll) {
+						var height = Math.max(offsetTop + 100 - maxScroll, 100);
+						var totalHeight = 0;
+						var heights = [];
+						for (var j = i; j < length; j++) {
+							var offsetHeight = contentListElem[j].offsetHeight;
+							totalHeight += offsetHeight;
+							heights.push(totalHeight);
+						}
+						for (var m = 0, len = heights.length; m < len; m++) {
+							contentTops.push(parseInt(maxScroll - (height - heights[m] / totalHeight * height)));
+						}
+						break;
+					} else {
+						contentTops.push(parseInt(offsetTop));
+					}
+				}
+				contentsElem.addEventListener('scroll', function() {
+					var scrollTop = contentsElem.scrollTop;
+					for (var i = 0; i < length; i++) {
+						var offsetTop = contentTops[i];
+						var offset = Math.abs(offsetTop - scrollTop);
+//						console.log("i:"+i+",scrollTop:"+scrollTop+",offsetTop:"+offsetTop+",offset:"+offset);
+						if (scrollTop < offsetTop) {
+							if (scrollTop >= maxScroll) {
+								onScroll(length - 1);
+							} else {
+								onScroll(i - 1);
+							}
+							break;
+						} else if (offset < 20) {
+							onScroll(i);
+							break;
+						}else if(scrollTop >= maxScroll){
+							onScroll(length - 1);
+							break;
+						}
+					}
+				});
+				var lastIndex = 0;
+				//监听content滚动
+				var onScroll = function(index) {
+					if (lastIndex !== index) {
+						lastIndex = index;
+						var lastActiveElem = controlsElem.querySelector('.mui-active');
+						lastActiveElem && (lastActiveElem.classList.remove('mui-active'));
+						var currentElem = controlsElem.querySelector('.mui-control-item:nth-child(' + (index + 1) + ')');
+						currentElem.classList.add('mui-active');
+						//简单处理左侧分类滚动，要么滚动到底，要么滚动到顶
+						var controlScrollTop = controlWrapperElem.scrollTop;
+						if (controlScrollTop + controlWrapperHeight < controlTops[index]) {
+							controlWrapperElem.scrollTop = controlMaxScroll;
+						} else if (controlScrollTop > controlTops[index] - controlHeight) {
+							controlWrapperElem.scrollTop = 0;
+						}
+					}
+				};
+				//滚动到指定content
+				var scrollTo = function(index) {
+					contentsElem.scrollTop = contentTops[index];
+				};
+				mui(controlsElem).on('tap', '.mui-control-item', function(e) {
+					scrollTo(this.getAttribute('data-index'));
+					return false;
+				});
+			})();
+		</script>
+
+	</body>
+
+</html>
