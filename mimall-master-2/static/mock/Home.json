@@ -1,0 +1,102 @@
+{
+    "goodsList": [
+        {
+            "goodsId": "0001",
+            "goodsName": "小米8 青春版",
+            "goodsBrief": "潮流镜面渐变色，自拍旗舰",
+            "goodsImg": "mi8.webp",
+            "goodsPrice": "1399"
+        },
+        {
+            "goodsId": "0003",
+            "goodsName": "小米8 屏幕指纹版",
+            "goodsBrief": "压感屏幕指纹，潮流外观",
+            "goodsImg": "mi8-2.webp",
+            "goodsPrice": "3199"
+        },
+        {
+            "goodsId": "0006",
+            "goodsName": "红米6",
+            "goodsBrief": "好用好看不贵",
+            "goodsImg": "redmi.webp",
+            "goodsPrice": "569"
+        },
+        {
+            "goodsId": "0007",
+            "goodsName": "小米平板4",
+            "goodsBrief": "追剧神器/支持AI人脸识别",
+            "goodsImg": "watchs.webp",
+            "goodsPrice": "1099"
+        }, 
+        {
+            "goodsId": "0010",
+            "goodsName": "小米电视4C 55英寸",
+            "goodsBrief": "4K HDR 人工智能系统",
+            "goodsImg": "tv4c-55.webp",
+            "goodsPrice": "2699"
+        }, 
+        {
+            "goodsId": "0010",
+            "goodsName": "小米电视4C 55英寸",
+            "goodsBrief": "4K HDR 人工智能系统",
+            "goodsImg": "tv4c-55.webp",
+            "goodsPrice": "2699"
+        }, 
+        {
+            "goodsId": "0010",
+            "goodsName": "小米电视4C 55英寸",
+            "goodsBrief": "4K HDR 人工智能系统",
+            "goodsImg": "tv4c-55.webp",
+            "goodsPrice": "2699"
+        }, 
+        {
+            "goodsId": "0010",
+            "goodsName": "小米电视4C 55英寸",
+            "goodsBrief": "4K HDR 人工智能系统",
+            "goodsImg": "tv4c-55.webp",
+            "goodsPrice": "2699"
+        },
+         {
+            "goodsId": "0007",
+            "goodsName": "小米平板4",
+            "goodsBrief": "追剧神器/支持AI人脸识别",
+            "goodsImg": "watchs.webp",
+            "goodsPrice": "1099"
+        }, 
+        {
+            "goodsId": "0010",
+            "goodsName": "小米电视4C 55英寸",
+            "goodsBrief": "4K HDR 人工智能系统",
+            "goodsImg": "tv4c-55.webp",
+            "goodsPrice": "2699"
+        },
+         {
+            "goodsId": "0007",
+            "goodsName": "小米平板4",
+            "goodsBrief": "追剧神器/支持AI人脸识别",
+            "goodsImg": "watchs.webp",
+            "goodsPrice": "1099"
+        }, 
+        {
+            "goodsId": "0010",
+            "goodsName": "小米电视4C 55英寸",
+            "goodsBrief": "4K HDR 人工智能系统",
+            "goodsImg": "tv4c-55.webp",
+            "goodsPrice": "2699"
+        },
+         {
+            "goodsId": "0007",
+            "goodsName": "小米平板4",
+            "goodsBrief": "追剧神器/支持AI人脸识别",
+            "goodsImg": "watchs.webp",
+            "goodsPrice": "1099"
+        }, 
+        {
+            "goodsId": "0010",
+            "goodsName": "小米电视4C 55英寸",
+            "goodsBrief": "4K HDR 人工智能系统",
+            "goodsImg": "tv4c-55.webp",
+            "goodsPrice": "2699"
+        }
+    ]
+}
