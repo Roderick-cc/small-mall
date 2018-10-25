@@ -1,4 +1,4 @@
-
+ 
 
 // 项目配置文件
 
@@ -10,7 +10,7 @@ module.exports = {
 	db:{
 		host: 'localhost',
 		user:'root',
-		password: 'root',
+		password: '123456',
 		database: 'cms'
 	}
 }
